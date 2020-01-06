@@ -42,13 +42,9 @@ brew cask install provisionql
 brew cask install https://raw.githubusercontent.com/Watson1978/QLMarkdownGFM/master/qlmarkdown-gfm.rb
 
 # Mac App Store
-mas install 587512244 # Kaleidoscope
-mas install 1024640650 # CotEditor
-mas install 419330170 # Moom
 mas install 445189367 # PopClip
 mas install 425955336 # Skitch
 mas install 1081413713 # GIF Brewery 3
-mas install 578878161 # Sleep No More
 
 # oh-my-zsh
 if [ ! -d ~/.oh-my-zsh ]; then
