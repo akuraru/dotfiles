@@ -4,7 +4,6 @@ if !(type "brew" > /dev/null 2>&1); then
     /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
-open https://clipy-app.com/
 open https://product-downloads.atlassian.com/software/sourcetree/ga/Sourcetree_3.2.1_225.zip
 open http://www.microedition.biz/simMagnifier/index.html
 
@@ -21,6 +20,7 @@ brew install openssl@1.1 # for rbenv
 brew install jemalloc
 brew install mas
 
+brew cask install clipy
 brew cask install 1password
 brew cask install alfred
 brew cask install slack
@@ -30,7 +30,6 @@ brew cask install istat-menus
 brew cask install gitup
 brew cask install the-unarchiver
 brew cask install dash
-brew cask install tower
 brew cask install visual-studio-code
 brew cask install hyperswitch
 brew cask install jasper
