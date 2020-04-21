@@ -1,11 +1,14 @@
 #/bin/bash
 
+open https://product-downloads.atlassian.com/software/sourcetree/ga/Sourcetree_3.2.1_225.zip
+open http://www.microedition.biz/simMagnifier/index.html
+
+defaults write com.apple.finder AppleShowAllFiles TRUE
+killall Finder
+
 if !(type "brew" > /dev/null 2>&1); then
     /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
-
-open https://product-downloads.atlassian.com/software/sourcetree/ga/Sourcetree_3.2.1_225.zip
-open http://www.microedition.biz/simMagnifier/index.html
 
 brew install git
 brew install peco
