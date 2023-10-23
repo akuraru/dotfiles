@@ -12,6 +12,7 @@ brew install --cask slack
 brew install --cask fork
 brew install --cask visual-studio-code
 brew install --cask jasper
+brew install --cask rapidapi
 
 brew install colima
 brew install docker
